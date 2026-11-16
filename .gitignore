@@ -1,0 +1,20 @@
+# Artefacts de compilation
+build/
+*.apk
+*.apk.idsig
+*.idsig
+*.dex
+*.class
+
+# Secrets et clés de signature locales
+.debug.keystore
+*.keystore
+*.jks
+local.properties
+
+# SDK Android téléchargé par build.sh
+.android-sdk/
+
+# Divers
+.DS_Store
+*.log

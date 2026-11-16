@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fond de l'icône adaptative : nuit profonde avec une lueur accent. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="315"
+                android:startColor="#1A2032"
+                android:endColor="#07090D"
+                android:type="linear" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="radial"
+                android:centerX="0.74"
+                android:centerY="0.86"
+                android:gradientRadius="180dp"
+                android:startColor="#66FF2B46"
+                android:endColor="#00FF2B46" />
+        </shape>
+    </item>
+</layer-list>
